@@ -9,7 +9,7 @@ public class TestUserDao {
     @Test
     public void testAddUser(){
         UserDao userdao = new UserDao();
-        User user = new User("88888888", "刘备", "男", "13155512345", "广东省广州市天河区华南理工大学");
+        User user = new User("88888888", "刘备", "男", "13155512345", "广西");
         System.out.println(user);
         int num = userdao.addUser(user);
         if(num>0){

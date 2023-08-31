@@ -12,7 +12,7 @@ public class testUserService {
         user.setPassword("123456abc");
         user.setGender("男");
         user.setPhone("13100098500");
-        user.setAddress("中山大学");
+        user.setAddress("北京市");
         int num = user_service.registerUser(user);
         System.out.println(num);
     }
